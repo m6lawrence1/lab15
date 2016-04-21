@@ -7,6 +7,11 @@ app.config(function($routeProvider) {
       controller: 'displayController',
       templateUrl: 'display.html'
     })
+    .when('/external',
+    {
+      controller: 'exterController',
+      templateUrl: 'external.html'
+    })
     .when('/form',
   {
     controller: 'formController',
